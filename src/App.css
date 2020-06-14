@@ -1,0 +1,102 @@
+.navbar {
+  background: lightseagreen;
+  padding: 2vh 4vw;
+}
+.link {
+  margin-right: 2vw;
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  border-bottom: 1px solid white;
+}
+.container {
+  padding: 0 4vw;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.titleTable {
+  width: 35vw;
+  text-align: center;
+}
+.categoryTable {
+  width: 10vw;
+  text-align: center;
+}
+.actionTitle {
+  text-align: center;
+}
+.buttonTable {
+  display: flex;
+  justify-content: space-between;
+}
+button, .backBtn {
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 1.5vh 3vw;
+  background: lightseagreen;
+}
+.backBtn {
+  margin-bottom: 3vh;
+}
+.searchGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+button:hover {
+  background: rgb(26, 160, 153);
+}
+button:focus {
+  outline: none;
+}
+.search {
+  width: 25%;
+  padding: 0 1vw;
+  border-radius: 20px;
+  border: 1px solid lightslategrey;
+}
+.search:focus {
+  border: 2px solid lightseagreen;
+  outline: none;
+}
+.loading {
+  text-align: center;
+  margin-top: 2vh;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+.inputGroup input {
+  padding: 1vh 1vw;
+}
+.inputGroup select {
+  margin: 2vh 0;
+  padding: 1vh 1vw;
+}
+/* .inputGroup button {
+  padding: 1vh 1vw;
+  background: lightseagreen;
+  border: none;
+  cursor: pointer;
+} */
+/* .inputGroup button:hover {
+  background: rgb(23, 151, 145);
+} */
